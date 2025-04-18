@@ -2,6 +2,17 @@ package org.example;
 
 import java.util.ArrayList;
 
+// q4 sp2024
+class Node {
+    int data;
+    Node next;
+
+    Node(int data) {
+        this.data = data;
+        this.next = null;
+    }
+}
+
 public class Practice {
 
     // TODO: figure out if linear search is sufficient
@@ -20,6 +31,15 @@ public class Practice {
             }
         }
         System.out.println("not found\n\t");
+    }
+
+    // q4 sp2024
+    public void printList(Node head) {
+        Node current = head;
+        while (current != null) {
+            System.out.println(current.data);
+            current = current.next;
+        }
     }
 
 

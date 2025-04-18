@@ -3,6 +3,11 @@ package org.example;
 import java.util.ArrayList;
 
 public class Main {
+
+    public static void printSeperator() {
+        System.out.println("------------------------------------------------------------------------");
+    }
+
     public static void main(String[] args) {
         Practice p = new Practice();
 
@@ -21,7 +26,9 @@ public class Main {
         students.add("Jane");
         students.add("Bob");
 
+        // GOTO: definition plz
         p.findElement(students, "Bob");
+        printSeperator();
 
         // ------------------------------------------------------------------------
 
@@ -71,6 +78,7 @@ public class Main {
 
         // B: print out last element in ArrayList
         System.out.println(books.get(books.size() - 1));
+        printSeperator();
 
         // ------------------------------------------------------------------------
 
@@ -91,7 +99,16 @@ public class Main {
 
         // Question 4: Sample Exam 2024
 
-        // 
+        // Provide the Java code for the print method of a single linked list.
+
+        // GOTO: definition plz
+        Node head = new Node(0);
+        head.next = new Node(1);
+        head.next.next = new Node(2);
+
+        // GOTO: definition plz
+        p.printList(head);
+        printSeperator();
 
         // ------------------------------------------------------------------------
 
@@ -106,4 +123,5 @@ public class Main {
         //
 
     }
+
 }
