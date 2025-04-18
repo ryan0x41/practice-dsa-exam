@@ -76,13 +76,22 @@ public class Main {
 
         // Question 3: Sample Exam 2024
 
-        //
+        // Explain the principle of insertion and removal performed on the stack abstract data
+        // type.
+
+        // stacks can be implemented using ArrayLists LinkedLists or other data structures.
+        // the stack follows a LIFO principle, meaning the last element inserted is the first
+        // to be removed.    to "insert" onto the stack, we use push(), to remove the top
+        // element we use pop()
+
+        // due to the LIFO structure, we do not / cannot directly access or remove elements
+        // at specific indices
 
         // ------------------------------------------------------------------------
 
         // Question 4: Sample Exam 2024
 
-        //
+        // 
 
         // ------------------------------------------------------------------------
 
@@ -94,7 +103,7 @@ public class Main {
 
         // Question 6: Sample Exam 2024
 
-        // 
+        //
 
     }
 }
