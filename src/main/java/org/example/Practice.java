@@ -14,11 +14,12 @@ public class Practice {
 
     public void findElement(ArrayList<String> students, String name) {
         for(int i=0; i<=students.size(); i++) {
-            if(students.get(i) == name) {
-                System.out.println(String.format("found\n\tat postition: %d", i));
+            if(students.get(i).equals(name)) {
+                System.out.println(String.format("[+] found\n\t%s at postition: %d", name, i));
                 return;
-            } System.out.println("not found\n\t");
+            }
         }
+        System.out.println("not found\n\t");
     }
 
 
